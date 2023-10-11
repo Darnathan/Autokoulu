@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Järvenpään Autokoulu</title>
+    <title>Autokoulu Järvenpään Symppis</title>
 </head>
+
 <body>
+    <!-- Sivun yläosa ja navigoinnit -->
     <nav>
         <div class="nav-logo">
             <a href="#">
@@ -16,33 +19,344 @@
         </div>
         <ul class="nav-links">
             <li class="link"><a href="#">Autokoulu</a></li>
-            <li class="link"><a href="#">Kurssit</a></li>
+            <li class="link"><a href="#kurssi">Kurssit</a></li>
             <li class="link"><a href="#">Hinnat</a></li>
             <li class="link"><a href="#">Meistä</a></li>
         </ul>
         <button class="btn">Ilmoittaudu</button>
     </nav>
-
+    <!-- Aloitussivun jargonit-->
     <header class="container">
         <div class="content">
+            <!-- pieni tausta valo oikeaa ylänurkkaan -->
             <span class="blur"></span>
             <span class="blur"></span>
             <h4>ASIANTUNTEVAA JA LAADUKASTA AJO OPETUSTA</h4>
-            <H1>Järvenpään <span>Autokoulu</span>, turvallisuus ennen kaikkea</H1>
-            <p>Olemme ylpeitä siitä, että olemme edistäneet liikenneturvallisuutta ja kouluttaneet uusia kuljettajia
-                 Suomen teille vuodesta 1993 lähtien. Yli kahden vuosikymmenen kokemuksella voimme taata parhaan 
-                 mahdollisen ajo-opetuksen ja tukea sinua matkallasi kohti turvallista ja vastuullista kuljettajaksi 
-                 kasvamista. Tule mukaan pitkään perinteeseemme ja luota ammattitaitoomme liikenteessä! 
+            <H1>Mukavin Autokoulu <span>Järvenpään Symppis</span></H1>
+            <p>Meillä voit valita ajotunnit oikeilla autoilla, joustavat maksuehdot tarjoavat sinulle mukavuutta. Opettajamme ovat mukavia ja rauhallisia, ja teoriatunnit voit käydä verkko-opetuksena, eli milloin sinulle sopii. Ajotunnit ovat saatavilla aikaisesta aamusta lähtien. Mahdollisuus suorittaa ajokortti nopeasti! Tarjoamme myös harjoittelutunnukset teoriakokeeseen. Kaikki automme ovat uusia ja ekotehokkaita ja vakuutukset ovat kunnossa, joten voit tuntea olosi turvalliseksi koko opintojesi ajan.
             </p>
             <button class="btn">Ilmoittaudu</button>
         </div>
+        <!-- Kuva vain placeholderina. Eli vaihtoon, ei ole oikeuksia -->
         <div class="image">
             <img src="./assets/images/ferrari_laferrari-export.png">
+            <span class="blur"></span>
+            <span class="blur"></span>
         </div>
-
     </header>
+    <!-- Kurssit -->
+    <section class="container">
+        <h2 id="kurssi" class="header">Kurssimme</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-car-line"></i></span>
+                <h4>Henkilöauto</h4>
+                <!-- Tee kurssin hinnasta hieno ja helposti päivitettävä -->
+                <p>
+                    B-Kurssimme on 
+                </p>
+                <a href="#ha">Siirry<i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-motorbike-line"></i></span>
+                <h4>Moottoripyöräkurssi</h4>
+                <!-- Tee kurssin hinnasta hieno ja helposti päivitettävä -->
+                <p>
+                    Moottoripyörä opetuksemme järjestetään Tattarisuon alueella, Helsingissä. A-kurssit alk. 460€
+                </p>
+                <a href="#mp">Siirry <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-money-euro-box-line"></i></span>
+                <h4>Mopo AM120 kurssi</h4>
+                <!-- Tee kurssin hinnasta hieno ja helposti päivitettävä -->
+                <p>
+                    Mopokortti nopeasti taskuun meidän kanssamme. 
+                </p>
+                <a href="#mp">Siirry <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-leaf-line"></i></span>
+                <h4>KurssiKurssi</h4>
+                <!-- Tee kurssin hinnasta hieno ja helposti päivitettävä -->
+                <p>
+                    Infoa kurssista sen hinnasta ja sen siällösta mahdollisisita ylimääräisistä kuluista
+                    1359€
+                </p>
+                <a href="#rtk">Siirry <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="ha" class="container">
+        <h2 class="header">Henkilöauto kortti (B-Kortti)</h2>
+        <p class="sub-header">
+            Ajotunteja ennen ajokoetta on suhteellisen vähän, jolloin yhdenkin ajotunnin merkitys on tärkeä. Suorittamalla
+            autokoulua meillä varmistat, että saat laadukasta ja viihtyisää opetusta, joka valmistaa sinua itsenäiseen
+            ajamiseen.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Minimi Paketti</h4>
+                    <h3><span>1249€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        10 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Medium Paketti</h4>
+                    <h3><span>1529€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        14 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Iso Paketti</h4>
+                    <h3><span>1654€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        16 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+        </div>
+    </section>
+    <section id="mp" class="container">
+        <h2 class="header">Moottoripyörä- ja mopokortti (A, A1, A2 ja AM120)</h2>
+        <p class="sub-header">
+            Ajotunteja ennen ajokoetta on suhteellisen vähän, jolloin yhdenkin ajotunnin merkitys on tärkeä. Suorittamalla
+            autokoulua meillä varmistat, että saat laadukasta ja viihtyisää opetusta, joka valmistaa sinua itsenäiseen
+            ajamiseen.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Minimi Paketti</h4>
+                    <h3><span>1249€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        10 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Medium Paketti</h4>
+                    <h3><span>1529€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        14 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Iso Paketti</h4>
+                    <h3><span>1654€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        16 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+        </div>
+    </section>
+    <section id="rtk" class="container">
+        <h2 class="header">Opetuslupa- ja Riskikurssi (RTK-Kurssi)</h2>
+        <p class="sub-header">
+            Ajotunteja ennen ajokoetta on suhteellisen vähän, jolloin yhdenkin ajotunnin merkitys on tärkeä. Suorittamalla
+            autokoulua meillä varmistat, että saat laadukasta ja viihtyisää opetusta, joka valmistaa sinua itsenäiseen
+            ajamiseen.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Minimi Paketti</h4>
+                    <h3><span>1249€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        10 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Medium Paketti</h4>
+                    <h3><span>1529€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        14 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Iso Paketti</h4>
+                    <h3><span>1654€</span></h3>
+                    <p><i class="ri-checkbox-line"></i>
+                        Jopa 48kk Maksuaika
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Aja oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        EAS ja RTK
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        Liukasrata oikealla autolla!
+                    </p>
+                    <p><i class="ri-checkbox-line"></i>
+                        16 Ajotuntia!
+                    </p>
+                </div>
+                <button class="btn">Ilmoittaudu</button>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="/assets/images/logo.png">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure ipsum molestias!</p>
+        
+        <div class="socials">
+            <a href="mailto:info@autokoulusymppis.fi"><i class="ri-mail-line"></i></a>
+            <a href="https://www.instagram.com/autokoulusymppis/"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.facebook.com/Autokoulusymppis/?locale=fi_FI"><i class="ri-facebook-line"></i></a>
+        </div>
+    </div>
+        <div class="column">
+            <h4>Yhteistiedot</h4>
+            <a href="mailto:info@autokoulusymppis.fi"><i class="ri-mail-line"></i> Sähköposti</a>
+            <a href="tel:+3589667501"><i class="ri-phone-line"></i> Puhelin Toimisto</a>
+            <a href="tel:+358405604223"><i class="ri-cellphone-line"></i> 040-5604223</a>
+        </div>
+        <div class="column">
+            <h4>Hyödyllisiä linkkejä</h4>
+            <a href="https://www.a-katsastus.fi/ajokortit-ja-luvat/">Ajovarma</a>
+            <a href="https://ajokortti-info.fi/fi">Ajokortti info</a>
+            <a href="https://ajokortti-info.fi/fi/ajokortin-hankkiminen/kuljettajantutkinto/nain-valmistaudut-ajokokeeseen">Ohjeita Ajokokeeseen</a>
+        </div>
+        <div class="column">
+            <h4>Autokoulu Symppis</h4>
+            <a href="https://www.autokoulusymppis.fi/">Symppis.fi</a>
+            <a href="https://kuljettajaopetus.fi/autokoulusymppis">Intranet</a>
+            <a href="#">Kysely</a>
+        </div>
+    
+    </footer>
+    <div class="copyright">
+        Järvenpään Autokoulu 2023 ©
+    </div>
 
 
     <script src="./index.js"></script>
 </body>
+
 </html>
