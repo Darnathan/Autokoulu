@@ -185,6 +185,10 @@ section .header{
     border-radius: 5px;
 }
 
+.features .card .eko{
+    background-color: green;
+}
+
 .features .card h4 {
     margin-bottom: 0.5rem;
     color: #FFF;
@@ -368,8 +372,6 @@ footer .column > a:hover{
         grid-template-columns: 1fr 150px;
     }
 }
-
-
 
 
 

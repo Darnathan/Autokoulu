@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="./formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symppis Kysely</title>
+</head>
+<body>
+    <form action="submit_form.php" method="POST">
+        <h1>Kysyttävää?</h1>
+    <p>Lähetä meille kysymyksesi! Pyrimme vastaamaan mahdollisimman pian.</p>
+        <label for="fullname"></label>
+        <input class="form-input" type="text" id="fullname" name="fullname" placeholder="Nimi" required>
+    
+        <label for="email"></label>
+        <input class="form-input" type="email" id="email" name="email" placeholder="esimerkki@symppis.fi" required>
+    
+        <label for="phone"></label>
+        <input class="form-input" type="tel" id="phone" name="phone" placeholder="+358401234567">
+    
+        <label for="message"></label>
+        <textarea class ="form-input" id="message" name="message"  placeholder="Kysymyksesi"></textarea>
+    
+        <input class="form-input" type="submit" value="Lähetä">
+    </form>
+    <div class="copyright">
+        Järvenpään Autokoulu 2023 ©
+    </div>
+</body>
+</html>
