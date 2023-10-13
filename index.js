@@ -1,3 +1,5 @@
+
+
 const targetIds = ['card1', 'card2', 'card3', 'card4', 'card5', 'card6'];
 
 const options = {
