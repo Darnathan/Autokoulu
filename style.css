@@ -234,6 +234,7 @@ section .header{
     transition: all 0.3s ease;
 }
 
+
 .pricing .card:hover{
     background-color: #323232;
     color: #FFF;
@@ -336,6 +337,8 @@ footer .column > a:hover{
     .nav-links{
         display: none;
     }
+   
+    }
     header{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -354,6 +357,9 @@ footer .column > a:hover{
     footer{
         grid-template-columns: 1fr 200px;
     }
+    .card.in-viewport {
+        background-color: #323232;
+        color: #f1d23e;
 }
 
 @media (width < 600px){
@@ -370,6 +376,10 @@ footer .column > a:hover{
     }
     footer{
         grid-template-columns: 1fr 150px;
+    }
+    .card.in-viewport {
+        background-color: #323232;
+        color: #f1d23e;
     }
 }
 
